@@ -3,31 +3,20 @@ const ProfileSection = () => {
     <section
       id="profile"
       style={{
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'space-between',
-        padding: '40px',
         height: '100vh',
+        padding: '20px', // changed padding
+        borderBottom: '1px solid #ddd',
       }}
     >
-      <div>
-        <video
-          className="mt-2"
-          autoPlay={false}
-          controls={true}
-          muted={true}
-          loop={true}
-          width={500}
-          src="/video/introduction.mp4"
-        />
-      </div>
-      <div style={{ flex: 1, textAlign: 'left' }}>
-        <h2>About Me</h2>
-        <p>
-          Add a detailed description here about yourself, your background, and
-          any other information you'd like to share.
-        </p>
-      </div>
+      <br />
+      <br />
+      <h2 className="text-6xl font-bold">#About Me</h2>
+      <br />
+      <p>정보보호학과 92313415 안지영입니다.</p>
+      <br />
+      <p>취미는 음악 듣기와 영화 보기입니다.</p>
+      <br />
+      <p>계획은 자격증 취득과 웹 서버 프로그래밍 공부입니다.</p>
     </section>
   )
 }

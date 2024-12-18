@@ -79,7 +79,7 @@ const Header = () => {
           Home
         </a>
         <a href="#profile" className="text-white hover:text-orange-600 mr-4">
-          Profile
+          About
         </a>
         <a href="#project" className="text-white hover:text-orange-600 mr-4">
           Project
@@ -88,7 +88,7 @@ const Header = () => {
           Contact
         </a>
 
-        <div className="flex items-center font-bold">
+        <div className="flex">
           <SignedOut>
             <div className="text-white hover:text-orange-600 mr-4">
               <SignInButton />

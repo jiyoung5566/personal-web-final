@@ -10,12 +10,14 @@ const HomeSection = () => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)',
       }}
     >
       <h1 style={{ fontSize: '60px', fontWeight: 'bold', color: 'black' }}>
         안지영
       </h1>
+      <br />
+      <br />
+      <h2 className="text-orange-600 font-bold">정보보호학과 92313415</h2>
     </section>
   )
 }
