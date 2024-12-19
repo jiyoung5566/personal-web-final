@@ -39,7 +39,7 @@ const ProjectSection = () => {
       title: 'Team-project',
       description: '팀 프로젝트로 진행한 도서 웹 페이지',
       githubUrl: 'https://github.com/jiyoung5566/daiso-shopping',
-      deployUrl: 'https://daiso-shopping-olive.vercel.app',
+      deployUrl: 'https://team-project-last.vercel.app/',
       tech: ['TypeScript', 'CSS', 'JacaScript'],
     },
   ]
@@ -49,7 +49,6 @@ const ProjectSection = () => {
       style={{
         minHeight: '100vh',
         padding: '40px 20px',
-        borderBottom: '1px solid #ddd',
       }}
     >
       <br />

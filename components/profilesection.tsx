@@ -5,7 +5,6 @@ const ProfileSection = () => {
       style={{
         height: '100vh',
         padding: '20px', // changed padding
-        borderBottom: '1px solid #ddd',
       }}
     >
       <br />
