@@ -59,7 +59,7 @@ const Header = () => {
     <header
       style={{
         height: '60px',
-        backgroundColor: 'rgba(68, 68, 68, 0.8)',
+        backgroundColor: 'rgba(238, 238, 238, 0)',
         color: 'white',
         display: 'flex',
         alignItems: 'center',
@@ -72,48 +72,42 @@ const Header = () => {
         padding: '10px 20px',
       }}
     >
-      <div style={{ fontWeight: 'bold', fontSize: '20px' }}>PORTFOLIO</div>
+      <div className="text-orange-600 font-bold text-2xl">MY PORTFOLIO</div>
 
       <div style={{ display: 'flex', gap: '10px' }}>
-        <a href="#home" className="text-white hover:text-orange-600 mr-4">
+        <a href="/#home" className="text-black hover:text-orange-600 mr-4">
           Home
         </a>
-        <a href="#profile" className="text-white hover:text-orange-600 mr-4">
+        <a href="/#profile" className="text-black hover:text-orange-600 mr-4">
           About
         </a>
-        <a href="#project" className="text-white hover:text-orange-600 mr-4">
+        <a href="/#project" className="text-black hover:text-orange-600 mr-4">
           Project
         </a>
-        <a href="#contact" className="text-white hover:text-orange-600 mr-4">
+        <a href="/#contact" className="text-black hover:text-orange-600 mr-4">
           Contact
         </a>
 
         <div className="flex">
           <SignedOut>
-            <div className="text-white hover:text-orange-600 mr-4">
+            <div className="text-black hover:text-orange-600 mr-4">
               <SignInButton />
             </div>
-            <div className="text-white hover:text-orange-600 mr-4">
+            <div className="text-black hover:text-orange-600 mr-4">
               <SignUpButton />
             </div>
           </SignedOut>{' '}
           <SignedIn>
             <Link
               href="/profile"
-              className="text-white hover:text-orange-600 mr-4"
+              className="text-black hover:text-orange-600 mr-4"
             >
               Profile
             </Link>
-            <Link
-              href="/dashboard"
-              className="text-white hover:text-orange-600 mr-4"
-            >
-              Dashboard-Server
-            </Link>
-            <div className="text-white hover:text-orange-600 mr-4">
+            <div className="text-black hover:text-orange-600 mr-4">
               <UserButton />
             </div>
-            <div className="text-white hover:text-orange-600 mr-4">
+            <div className="text-black hover:text-orange-600 mr-4">
               <SignOutButton />
             </div>
           </SignedIn>
