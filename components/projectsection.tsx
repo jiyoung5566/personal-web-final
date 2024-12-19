@@ -10,8 +10,8 @@ const ProjectSection = () => {
     {
       title: 'clerk-api',
       description: 'clerk 활용 프로젝트',
-      githubUrl: 'https://github.com/yourusername/project2',
-      deployUrl: 'https://personal-web-khaki-zeta.vercel.app',
+      githubUrl: 'https://github.com/jiyoung5566/clerk-api',
+      deployUrl: 'https://clerk-api-three.vercel.app',
       tech: ['사용한', '기술', '스택'],
     },
     {

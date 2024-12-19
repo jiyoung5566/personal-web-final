@@ -13,7 +13,8 @@ const ContactSection = () => {
       <h2 className="text-6xl font-bold">#Contact Me</h2>
       <br />
       <p className="text-orange-600 font-bold">EMAIL</p>
-      <p>mbmtms@naver.com</p>
+      <a href="mailto:mbmtms@naver.com">mbmtms@naver.com</a>
+      <br />
       <br />
       <p className="text-orange-600 font-bold">PHONE</p>
       <p>123-4567-8910</p>
@@ -22,7 +23,13 @@ const ContactSection = () => {
       <p>https://blog.naver.com</p>
       <br />
       <p className="text-orange-600 font-bold">GITHUB</p>
-      <p>https://github.com/jiyoung5566</p>
+      <a
+        href="https://github.com/jiyoung5566"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        https://github.com/jiyoung5566
+      </a>
     </section>
   )
 }
